@@ -144,7 +144,7 @@ a {
 .list {
   list-style: none;
   padding-left: 0;
- 
+  
 }
 
 .list--inline .list__item {
@@ -210,7 +210,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-transform: uppercase;
   text-align: center;
   white-space: nowrap;
@@ -295,12 +295,14 @@ a {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   display: flex;
+  
 }
 
 .input-group .input {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -748,6 +750,7 @@ a {
   justify-items: center;
   max-width: 700px;
   margin: 0 auto;
+  color: var(--heading-color);
 }
 
 @media screen and (min-width:768px) {
