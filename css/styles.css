@@ -36,7 +36,7 @@ h2,
 h3 {
   color: var(--heading-color);
   margin-bottom: 1rem;
-  
+}
 
 h1 {
   font-size: 7rem;
@@ -51,7 +51,7 @@ h3 {
   font-weight: 500;
 }
   
-}
+
 
 p {
   margin-top: 0;
@@ -584,7 +584,7 @@ a {
 }
 
 .collapsible__chevron {
-  transform: rotate(-90);
+  transform: rotate(-90deg);
   transition: transform 0.3s;
 }
 
